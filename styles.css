@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxygen+Mono&family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+}
+#container {
+    width: 60%;
+    background-color: rgb(250, 246, 246);
+    border-left: 20px solid grey;
+    margin: 30px auto;
+    position: relative;
+}
+#container #text-body {
+    padding: 20px;
+    position: relative;
+}
+#text-body p {
+    margin: 0
+}
+#text-body .quote {
+    color: grey;
+    font-size: 30px;
+    font-family: "Oxygen ";
+}
+#top, #right, #bottom {
+    position: absolute;
+    border: 1px solid black;
+}
+#top {
+    top: -20%;
+    left: -4%;
+}
+#top p, #bottom p, #right p {
+    margin: 0;
+    padding: 5px;
+}
+#bottom {
+    left: -4%;
+}
+#right {
+    right: -25%;
+    top: 0;
+}
