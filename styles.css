@@ -7,41 +7,43 @@ body {
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
 }
-#container {
-    width: 60%;
+.lorem {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#quotes {
+    padding: 20px;
+    max-width: 800px;
+    width: 50%;
     background-color: rgb(250, 246, 246);
     border-left: 20px solid grey;
     margin: 30px auto;
-    position: relative;
 }
-#container #text-body {
-    padding: 20px;
-    position: relative;
+
+#quotes p {
+    margin: 0;
 }
-#text-body p {
-    margin: 0
-}
-#text-body .quote {
+#quotes.quote {
     color: grey;
     font-size: 30px;
     font-family: "Oxygen ";
 }
 #top, #right, #bottom {
     position: absolute;
-    border: 1px solid black;
-}
-#top {
-    top: -20%;
-    left: -4%;
-}
-#top p, #bottom p, #right p {
-    margin: 0;
-    padding: 5px;
-}
-#bottom {
-    left: -4%;
-}
-#right {
-    right: -25%;
+    width: max-content;
     top: 0;
+    left: 0;
+    background: #222;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 90%;
 }
+@media screen and (max-width: 768px){
+    #right {
+        max-width: 50px;
+    }
+}
+
